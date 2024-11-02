@@ -1,5 +1,5 @@
 <?php
-<<<<<<< HEAD
+
 echo "Bonjour les etudiants de la L3TDSI <br>" ;
 
 //Déclaration de variable 
@@ -68,7 +68,7 @@ function scope(){
     $local_var = 3;
     //echo $GLOBALS['nom_var2'];
     echo "\n Affichage des variables statiques ". $var_static."\n";
-=======
+
 // Déclarer des variables / affecter des valeurs et afficher
 $nom_var1 = 5;
 $nom_var2 = "\n Les étudiants";
@@ -156,14 +156,14 @@ function scope() {
     static $var_static = 4;
     $var_static++;
     echo "\nAffichage de la variable statique : $var_static\n";
->>>>>>> 67ed4e7d1ef2a0e92a6edf5efa69bb60d2763e38
+
 }
 
 scope();
 scope();
 
 
-<<<<<<< HEAD
+
 // Les formulaires et variables superglobales PHP
 
 echo "Récupération avec \$_REQUEST:" . "<br>";
@@ -254,36 +254,12 @@ $statement->bindParam(':prenom', $prenom);
 $statement->bindParam(':nom', $nom);
 $statement->bindParam(':adresse', $adresse);
 $statement->bindParam(':age', $age, PDO::PARAM_INT);
-=======
->>>>>>> 67ed4e7d1ef2a0e92a6edf5efa69bb60d2763e38
 
 
 
 
-<<<<<<< HEAD
-//Les redirections
-//Redirection HTTP (Header)
 
-//Méthode javascript :
-/*echo "script> window.location ='cours3.php';</script>";
 
-//Méthode de balise meta HTML :
-echo "<meta http-equiv='refresh' content='0;url=cours3.php'>";
-// creation de l'instance PDO et connexion à la BD 
-//Infos du serveur DB 
-$mysqlHost="localhost";
-$dbname="coursedb";
-$charset="utf8";
-$dsn = "mysql:host=$mysqlHost;"."dbname=$dbname;"."charset=$charset";
-//les options 
-$opt = array (
-PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION ,
-PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-PDO::ATTR_EMULATE_PREPARES => false );
-//Instanciation de l'objet PDO
-$mysqlLogin = "root";
-$mysqlPassword = "";
-$PDO = new PDO($dsn, $mysqlLogin, $mysqlPassword, $opt);*/
 
 ?>
 		
@@ -314,9 +290,4 @@ $PDO = new PDO($dsn, $mysqlLogin, $mysqlPassword, $opt);*/
     </form>
 </body>
 </html>
-=======
 
-
-
-
->>>>>>> 67ed4e7d1ef2a0e92a6edf5efa69bb60d2763e38
